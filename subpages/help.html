@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Typical Developers - Contact</title>
+	<link rel="stylesheet" href="../style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<!--Navigation-->
+	<nav>
+		<a href="../index.html"><img class="Nav_Logo" src="../pictures/Icon.svg" alt="TD_Logo"></a>
+		<input type="checkbox" name="menu" id="menu_checkbox">
+		<label for="menu_checkbox" class="menu_checkbox_label">
+			<img src="../pictures/menu.png" class="menu_image_normal" alt="menu">
+			<img src="../pictures/close.png" class="menu_image_close" alt="close"></label>
+		<ul>
+			<li class="NavElement inactive"><a href="../index.html">Home</a></li>
+			<li class="NavElement inactive"><a href="about.html">About</a></li>
+			<li class="NavElement inactive dropdown_head"><a href="experiences.html">Experiences</a>
+				<ul class="dropdown_nav">
+					<li class="dropdown_nav_element"><a href="oaklands.html">Oaklands</a></li>
+					<li class="dropdown_nav_element"><a href="Build_for_Survival.html">Build for Survival
+						</a></li>
+				</ul>
+			</li>
+			<li class="NavElement active"><a href="help.html">Help</a></li>
+			<li class="NavElement inactive"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+
+	<!--Content-->
+	<div class="content_div">
+		<div>
+			<h2 class="Title_Big html_title">Welcome to Help</h2>
+			<span class="Title_Descr">Hopefully we can help you with your Problem.</span>
+		</div>
+		<div class="LiveFeed">
+			<h3>Live Feed</h3>
+			<span>Everything seems normal! If you think otherwise, feel free to <a href="contact.html">contact
+					us</a></span>
+		</div>
+		<div>
+			<h3 class="FaQTitle">FaQ</h3>
+			<div class="accordion">
+				<!-- Item 1 -->
+				<div class="accordion-item">
+					<input type="checkbox" id="item-1" />
+					<label for="item-1" class="accordion-header">
+						<span>I have lost my Item because of a bug. Is there any way to get it back?</span>
+						<span class="arrow">
+							<img src="../pictures/help/arrow.png" class="arrow_img" alt="arrow">
+						</span>
+					</label>
+					<div class="accordion-content">
+						<p>
+							In most of the cases, no. If it was a major bug or a big loss of value/money, we will
+							consider looking into it. If you feel like your loss was big enough, <a
+								href="contact.html">contact us!</a>
+						</p>
+					</div>
+				</div>
+
+				<!-- Item 2 -->
+				<div class="accordion-item">
+					<input type="checkbox" id="item-2" />
+					<label for="item-2" class="accordion-header">
+						<span>I've found a major bug, what do I do?</span>
+						<span class="arrow">
+							<img src="../pictures/help/arrow.png" class="arrow_img" alt="arrow">
+						</span>
+					</label>
+					<div class="accordion-content">
+						<p>
+							Join the <a href="https://discord.com/invite/3ecXnvVJVV">Discord</a> for more informations
+							about the current bug report system. If the bug is game breaking, like duping, you have a
+							chance of getting a price too!
+						</p>
+					</div>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="accordion-item">
+					<input type="checkbox" id="item-3" />
+					<label for="item-3" class="accordion-header">
+						<span>I've bought something and want a refund now. Is it possible?</span>
+						<span class="arrow">
+							<img src="../pictures/help/arrow.png" class="arrow_img" alt="arrow">
+						</span>
+					</label>
+					<div class="accordion-content">
+						<p>
+							Unfortunatly, we can't provide any refunds. If you want to you can tell us why you want to
+							refund it, so we can improve the functions of the thing you bought. But at the current
+							situation, refunds are <strong>impossible</strong>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="help_contact_banner">
+			<div class="help_contact_banner_img">
+				<img src="../pictures/contact/communication.png" class="help_icon" alt="sky">
+			</div>
+			<div>
+				<h3 class="help_left_text banner_h3">You can't find what you're looking for?</h3>
+				<a href="https://discord.com/invite/3ecXnvVJVV">
+					<div class="help_left_text">Join the Discord and ask us.</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Footer-->
+	<footer>
+		<div class="Contain_Footer">
+			<div class="Footer_div Footer_Contact">
+				<h4>Contact</h4>
+				<ul>
+					<li><strong>E-Mail:</strong> mail@typicaldevelopers.com</li>
+					<li><strong>Tel.:</strong> +12 345 67890 (Monday - Friday)</li>
+					<li>Feel free to contact us for serious things!</li>
+					<li>For any support, contact a discord mod.</li>
+				</ul>
+			</div>
+
+			<div class="Footer_div Footer_Socials">
+				<h4>Socials</h4>
+				<ul>
+					<li><a href="https://x.com/TypicalDevelops">Twitter - X</a></li>
+					<li><a href="https://www.youtube.com/@typicaldevs">YouTube</a></li>
+					<li><a href="https://discord.com/invite/3ecXnvVJVV">Discord</a></li>
+					<li><a href="https://www.guilded.gg/Typical-Developers">Guilded</a></li>
+				</ul>
+			</div>
+
+			<span class="Footer_copyr"><span>&copy; 2024 Typical Developers</span></span>
+		</div>
+	</footer>
+
+</body>
+
+</html>
